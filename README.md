@@ -80,4 +80,3 @@ pip install numpy pandas sqlalchemy requests
 - Ensure the PostgreSQL database is properly configured and accessible.
 
 Feel free to customize the script according to your specific needs or integrate it into a larger data pipeline.
-```
