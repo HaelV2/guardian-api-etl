@@ -1,4 +1,3 @@
-```python
 # Guardian API Data Extraction and Loading
 
 ## Overview
@@ -26,7 +25,7 @@ pip install numpy pandas sqlalchemy requests
 ## Configuration
 
 1. **Database Connection:**
-   - The script connects to a PostgreSQL database. Update the `create_engine` line to reflect your PostgreSQL database connection details.
+   - The script connects to a PostgreSQL database. Update the `create_engine` line to reflect your own PostgreSQL database connection details.
 
    ```python
    engine = create_engine('postgresql://your_username:your_password@localhost:5432/your_database_name')
@@ -47,7 +46,6 @@ pip install numpy pandas sqlalchemy requests
    total_articles = 100
    page_size = 50
    ```
-
 ## Execution
 
 1. **Run the Script:**
